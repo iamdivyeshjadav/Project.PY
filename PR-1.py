@@ -18,8 +18,8 @@ print("Favorite Number: ", favorite_number,"type: ", type(favorite_number), "mem
 print("Favorite Food: ", favorite_food,"type: ", type(favorite_food), "memory address: ", id(favorite_food))
 print("Hobbies: ", hobbies,"type: ", type(hobbies), "memory address: ", id(hobbies))
 print("Favorite IPL Team: ", favorite_ipl_team,"type: ", type(favorite_ipl_team), "memory address: ", id(favorite_ipl_team))
-print("Your birth year is: ", 2025 - int(age)," based on your agre of ", age)
-print("thank you for using the interactive personal data collector! Have a great day!","\n")
+print("Your birth year is: ", 2025 - int(age)," based on your agre of ", age,"\n")
+print("thank you for using the interactive personal data collector! Have a great day!")
 '''
 output:
 welcome to the interactive personal data collector! 
