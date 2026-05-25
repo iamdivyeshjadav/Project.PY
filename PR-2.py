@@ -48,7 +48,7 @@ while True:
             break 
         case _: 
             print("invalid choice, please try again")
-             continue
+            continue
 """
 output:
 welcome to the pattern generator and number analyzer!
