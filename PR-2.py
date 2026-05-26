@@ -48,3 +48,54 @@ while True:
             break 
         case _: 
             print("invalid choice, please try again")
+            continue
+"""
+output:
+welcome to the pattern generator and number analyzer!
+
+Please select an option:
+1. Pattern Generator
+2. Number Analyzer
+3. Exit
+enter your choice (1, 2, or 3): 1
+press 1 for left aligned triangle
+press 2 for right aligned triangle
+press 3 for diamond pattern
+enter the pattern you want to generate (1, 2, or 3): 3
+enter the number of rows for the diamond: 5
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+welcome to the pattern generator and number analyzer!
+
+Please select an option:
+1. Pattern Generator
+2. Number Analyzer
+3. Exit
+enter your choice (1, 2, or 3): 2
+you have selected number analyzer
+enter a number to analyze: 10
+enter another number to analyze: 15                  
+10 is an even number
+11 is an odd number
+12 is an even number
+13 is an odd number
+14 is an even number
+15 is an odd number
+the sum of the numbers from 10 to 15 is 75
+welcome to the pattern generator and number analyzer!
+
+Please select an option:
+1. Pattern Generator
+2. Number Analyzer
+3. Exit
+enter your choice (1, 2, or 3): 3
+you have selected exit
+thank you for using the program!
+"""
