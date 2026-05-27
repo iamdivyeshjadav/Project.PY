@@ -1,0 +1,69 @@
+students_list = []
+students_dict = {}
+student_subjects= ["Math", "Science", "History", "English", "Art"]
+print("welcome to the student data organizer")
+while True:
+    print("-------------------------------")
+    print("please select an option:")
+    print("press 1 for  add a student")
+    print("press 2 for  display student data")
+    print("press 3 for  update student data")
+    print("press 4 for  delete student data")
+    print("press 5 for  display subject offered")
+    print("press 6 for  exit")
+    choice = input("enter your choice: ")
+    match choice:
+        case "1":
+            print("-------------------------------")
+            student_ID = input("enter student ID: ")
+            name = input("enter student name: ")
+            age = input("enter student age: ")
+            grade = input("enter student grade: ")
+            date_of_birth = input("enter student date of birth (YYYY-MM-DD): ")
+            subject = input("enter student subject (comma-separated): ")
+            student_data = {"ID": student_ID, "name": name, "age": age, "grade": grade, "date_of_birth": date_of_birth, "subject": subject}
+            students_list.append(student_data)
+            students_dict[student_ID] = student_data
+            print("student added successfully.")
+        case "2":
+            print("-------------------------------")
+            for student in students_list:
+                print(f"ID: {student['ID']}, Name: {student['name']}, Age: {student['age']}, Grade: {student['grade']}, Date of Birth: {student['date_of_birth']}, Subject: {student['subject']}")
+            if not students_list:
+                print("no students found.")
+        case "3":
+            print("-------------------------------")
+            student_ID = input("enter student ID to update: ")
+            if student_ID in students_dict:
+                name = input("enter new student name: ")
+                age = input("enter new student age: ")
+                grade = input("enter new student grade: ")
+                date_of_birth = input("enter new student date of birth (YYYY-MM-DD): ")
+                subject = input("enter new student subject (comma-separated): ")
+                students_dict[student_ID] = {"ID": student_ID, "name": name, "age": age, "grade": grade, "date_of_birth": date_of_birth, "subject": subject}
+                for i, student in enumerate(students_list):
+                    if student["ID"] == student_ID:
+                        students_list[i] = students_dict[student_ID]
+                        print("student data updated successfully.")
+                        break
+            else:
+                print("student ID not found.")
+        case "4":
+            print("-------------------------------")
+            student_ID = input("enter student ID to delete: ")
+            if student_ID in students_dict:
+                del students_dict[student_ID]
+                students_list = [student for student in students_list if student["ID"] != student_ID]
+                print("student data deleted successfully.")
+            else:
+                print("student ID not found.")
+        case "5":
+            print("-------------------------------")
+            print("subjects offered:")
+            for subject in student_subjects:
+                print(subject)
+        case "6":
+            print("thank you for using the student data organizer. goodbye!")
+            break
+        case _:
+            print("invalid choice. please try again.")
