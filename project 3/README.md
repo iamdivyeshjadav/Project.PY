@@ -151,7 +151,9 @@ press 4 for delete student data
 press 5 for display subject offered
 press 6 for exit
 ```
-
+<img src="PR3.png">
+<img src="PR3-2.png">
+<img src="PR3-3.png">
 ---
 
 # 🛠️ Tech Stack
