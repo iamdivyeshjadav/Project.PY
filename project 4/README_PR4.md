@@ -25,7 +25,7 @@ The **Data Analyzer & Transformer** is a menu-driven Python application that all
 ## 🏗️ Project Structure
 
 ```text
-📦 Data-Analyzer-Transformer
+📦 project 4
 │
 ├── 📄 PR_4.py
 └── 📄 README.md
