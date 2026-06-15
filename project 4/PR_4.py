@@ -73,4 +73,123 @@ while True:
         case _:
             print("Invalid choice. Please try again.")
 '''
+output:
+welcome to the data analyzer and transformer program
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 1
+*-------------------------------*
+Enter data for a 1D array (separated by spaces): 12 13 14 15 16
+[12, 13, 14, 15, 16]
+Data has been stored successfully.
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 2
+*-------------------------------*
+Data summary:
+total elements: 5
+minimum value: 12
+maximum value: 16
+sum of all values: 70
+average value: 14.0
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 3
+*-------------------------------*
+Enter a number to calculate its factorial: 10
+The factorial of 10 is 3628800
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 4
+*-------------------------------*
+Enter a threshold value to filter data: 10
+Filtered data: [12, 13, 14, 15, 16]
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 5
+*-------------------------------*
+Sorting options:
+1. Ascending order
+2. Descending order
+Enter Your Choice: 1
+Data sorted in ascending order: [12, 13, 14, 15, 16]
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 5
+*-------------------------------*
+Sorting options:
+1. Ascending order
+2. Descending order
+Enter Your Choice: 2
+Data sorted in descending order: [16, 15, 14, 13, 12]
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: 6
+*-------------------------------*
+Dataset statistics:
+Total elements: 5
+Minimum value: 12
+Maximum value: 16
+Average value: 14.0
+*-----------------------------------------------*
+please select an option:
+press 1 for  input data
+press 2 for Display data summary (built-in functions)
+press 3 for Calculate factorial (recursaion)
+press 4 for Filter data by a threshold (lambda function)
+press 5 for Sort data
+press 6 for  display dateset statistics (returning multiple values)
+press 7 for  exit
+enter your choice: python -u "d:\project.py\project 4\PR_4.py"
+Invalid choice. Please try again.
+*-----------------------------------------------*
 '''
