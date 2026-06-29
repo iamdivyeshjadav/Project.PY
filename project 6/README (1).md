@@ -247,7 +247,6 @@ def clear_all(self):
 **Sample Output:**
 ---
 <img src="Capture123.PNG" width="200">
-
 ---
 <img src="Capture124.PNG" width="200">
 
