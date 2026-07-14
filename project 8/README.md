@@ -399,20 +399,7 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 ## 👤 Author
 
-<div align="center">
-
-### Ayush Isamaliya
-
-[![GitHub](https://img.shields.io/badge/GitHub-yourhandle-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/isamaliya16)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-isamaliya-686533312/)
-
-> *"Every array starts with a single element — just like every program starts with a single line."*
-
-**🎓 Role:** Junior Python Developer | Programming Enthusiast \
-**📍 Location:** India\
-**🛠️ Skills:** Python · NumPy · CLI Applications · Logic Building · Array Programming
-
-</div>
+Dvyesh jadav
 
 ---
 
